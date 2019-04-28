@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/DeepSkyBlue"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Trojandetection" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS Trojan: malware that: (i) send SMS messages
+stealthily and without the user consent, generally
+to subscribe the user to a premium services, or send
+spam messages to all of the user contacts; (ii) exploit
+authentication mechanism of some bank institutes,
+based on SMS messages, to authorize unwanted
+transactions (Banking Trojan)."
+android:textColor="@color/White"
+android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   
+
+ <Button
+        android:id="@+id/trojan_check"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:drawableRight="@drawable/rsz_finaro"
+        android:layout_marginTop="20dp"        
+        android:layout_marginLeft="40dp"
+        android:background="@color/White"
+        android:drawableLeft="@drawable/rsz_ware"
+        android:paddingRight="10dp"
+         android:paddingLeft="10dp"
+        android:text="Check for Trojan" />
+</LinearLayout>

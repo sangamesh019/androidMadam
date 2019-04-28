@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ApkListActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/Viewlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View App" />
+
+            <Button
+                android:id="@+id/FullScan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full scan" />
+            
+            <Button
+                android:id="@+id/logoutUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:paddingLeft="15dp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/applist"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/applistall"
+            android:layout_width="wrap_content"
+            android:layout_height="362dp" >
+        </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/DeepSkyBlue"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SpywareChecker" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spyware: malware that take pieces of private data
+from the mobile device, such as IMEI and IMSI,
+contacts, messages or social network account credentials;
+an important sub-class is the malware that
+take pieces of data from location interfaces and send
+them to an external server without the user consent."
+android:textColor="@color/White"
+android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/upt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/DeepOrange"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+ <Button
+        android:id="@+id/spware_check"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:drawableRight="@drawable/rsz_finaro"
+        android:layout_marginTop="20dp"        
+        android:layout_marginLeft="40dp"
+        android:background="@color/White"
+        android:drawableLeft="@drawable/rsz_ware"
+        android:paddingRight="10dp"
+         android:paddingLeft="10dp"
+        android:text="Check for Spyware" />
+</LinearLayout>
